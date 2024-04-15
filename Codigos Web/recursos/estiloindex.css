@@ -1,0 +1,96 @@
+body {
+
+	background:
+      radial-gradient(50% 50% at 100% 0,#efa00b 0%  5% ,#e5d2b0 6%  15%,#efa00b 16% 25%,#e5d2b0 26% 35%,#efa00b 36% 45%,
+       #e5d2b0 46% 55%,#efa00b 56% 65%,#e5d2b0 66% 75%,#efa00b 76% 85%,#e5d2b0 86% 95%,
+       #0000 96%),
+      radial-gradient(50% 50% at 0 100%,#efa00b 0%  5% ,#e5d2b0 6%  15%,#efa00b 16% 25%,#e5d2b0 26% 35%,#efa00b 36% 45%,
+       #e5d2b0 46% 55%,#efa00b 56% 65%,#e5d2b0 66% 75%,#efa00b 76% 85%,#e5d2b0 86% 95%,
+       #0000 96%),
+      radial-gradient(50% 50%,#efa00b 0%  5% ,#e5d2b0 6%  15%,#efa00b 16% 25%,#e5d2b0 26% 35%,#efa00b 36% 45%,
+       #e5d2b0 46% 55%,#efa00b 56% 65%,#e5d2b0 66% 75%,#efa00b 76% 85%,#e5d2b0 86% 95%,
+       #0000 96%),
+      radial-gradient(50% 50%,#efa00b 0%  5% ,#e5d2b0 6%  15%,#efa00b 16% 25%,#e5d2b0 26% 35%,#efa00b 36% 45%,
+       #e5d2b0 46% 55%,#efa00b 56% 65%,#e5d2b0 66% 75%,#efa00b 76% 85%,#e5d2b0 86% 95%,
+       #0000 96%) 29px 29px;
+    background-size: 58px 58px;
+    background-color: #efa00b;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 45px;
+	border-bottom: 1px solid #D65108;
+	color: black;
+
+}
+
+.content .info {
+
+    font-size: 25px;
+
+}
+
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #e5d2b0d0;
+    border-radius: 10px;
+
+}
+
+.content h4{
+
+	color: #fff;
+	background: #efa00b;
+	border-radius: 5px;
+}
+
+.content table{
+
+	border-color: #D65108;
+}
+
+.content > p table td, .content > div table td {
+
+	padding: 5px;
+    border-bottom: 1px solid;
+    border-color: #D65108;
+}
+
+.content > p table td:first-child, .content > div table  {
+	
+	color: #0267c1;
+	padding-right: 15px;
+    
+}
+
+.content > p table th, .content > div table th {
+
+	padding: 5px;
+    border-bottom: 1px solid;
+    border-color: #D65108;
+}
+
+.content > p table th:first-child, .content > div table  {
+	
+	color: #0267c1;
+	padding-right: 15px;
+    
+}
+
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+.content thead{
+
+	background: #0267c1;
+}
